@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import FilmListing from './components/FilmList';
 import FilmDetails from './components/Details';
-import TMDB from '../../src/TMDB';
+import TMDB from './TMDB.js';
 
 class App extends Component {
   render() {
